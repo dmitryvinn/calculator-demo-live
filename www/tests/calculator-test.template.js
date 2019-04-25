@@ -7,7 +7,7 @@ casper.test.begin('Calculator Visual Tests', function () {
     } );
 
     // Initialize URL
-    casper.start( 'https://calculator-demo-238014.appspot.com/v2.html' );
+    casper.start( 'https://calculator-demo-238014.appspot.com' );
     // Establish resolution
     casper.viewport( 1024, 768 );
 
