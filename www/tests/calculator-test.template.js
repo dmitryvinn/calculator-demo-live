@@ -14,10 +14,10 @@ casper.test.begin('Calculator Visual Tests', function () {
     // Test
     casper.then( function () {
             function success() {
-                phantomcss.screenshot( 'body', 'simple calculator body');
+                phantomcss.screenshot( '[TARGET]', '[FILE_NAME]]');
             }
             function timeout() {
-                casper.test.fail( 'Failed to find calculator body' );
+                casper.test.fail( '[FAILURE_MESSAGE]]' );
             }
     });
 
