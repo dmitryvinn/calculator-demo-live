@@ -13,12 +13,6 @@ casper.test.begin('Calculator Visual Tests', function () {
 
     // Test
     casper.then( function () {
-            function success() {
-                phantomcss.screenshot( '[TARGET]', '[FILE_NAME]]');
-            }
-            function timeout() {
-                casper.test.fail( '[FAILURE_MESSAGE]]' );
-            }
     });
 
     casper.then( function() {
